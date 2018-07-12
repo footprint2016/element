@@ -2,14 +2,14 @@ package com.coocaa.element.elementui.controller.manage;
 
 import com.alibaba.fastjson.JSONObject;
 import com.coocaa.element.common.controller.BaseController;
+import com.coocaa.element.core.enums.DeleteFlagEnum;
 import com.coocaa.element.core.model.manage.Menu;
 import com.coocaa.element.core.model.manage.User;
 import com.coocaa.element.core.service.manage.*;
+import com.coocaa.element.core.utils.CipherUtil;
+import com.coocaa.element.core.utils.StringUtil;
+import com.coocaa.element.core.utils.ValidateUtil;
 import com.coocaa.element.elementui.controller.async.AsyncSendEmail;
-import com.coocaa.magazine.utils.CipherUtil;
-import com.coocaa.magazine.utils.StringUtil;
-import com.coocaa.magazine.utils.ValidateUtil;
-import com.coocaa.magazine.utils.enums.DeleteFlagEnum;
 import com.github.pagehelper.PageHelper;
 import org.apache.commons.lang.StringUtils;
 import org.apache.shiro.SecurityUtils;

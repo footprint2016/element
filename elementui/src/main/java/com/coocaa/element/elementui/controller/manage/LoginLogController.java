@@ -2,11 +2,11 @@ package com.coocaa.element.elementui.controller.manage;
 
 import com.coocaa.element.common.controller.BaseController;
 import com.coocaa.element.common.util.ObjMapConvertUtil;
+import com.coocaa.element.core.enums.DeleteFlagEnum;
 import com.coocaa.element.core.model.manage.LoginLog;
 import com.coocaa.element.core.model.manage.User;
 import com.coocaa.element.core.service.manage.LoginLogService;
 import com.coocaa.element.core.service.manage.UserService;
-import com.coocaa.magazine.utils.enums.DeleteFlagEnum;
 import com.github.pagehelper.PageHelper;
 import com.github.pagehelper.PageInfo;
 import org.apache.commons.lang.StringUtils;

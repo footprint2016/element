@@ -1,9 +1,9 @@
 package com.coocaa.element.elementui.realm;
 
+import com.coocaa.element.core.enums.DeleteFlagEnum;
 import com.coocaa.element.core.model.manage.User;
 import com.coocaa.element.core.service.manage.UserService;
 import com.coocaa.element.elementui.utils.LoginUtils;
-import com.coocaa.magazine.utils.enums.DeleteFlagEnum;
 import org.apache.shiro.authc.*;
 import org.apache.shiro.util.ByteSource;
 import org.springframework.beans.factory.annotation.Autowired;

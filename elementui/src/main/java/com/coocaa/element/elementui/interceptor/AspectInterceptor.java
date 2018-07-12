@@ -7,7 +7,7 @@ import com.coocaa.element.core.model.manage.User;
 import com.coocaa.element.core.service.manage.LoginLogService;
 import com.coocaa.element.core.service.manage.OperateLogService;
 import com.coocaa.element.core.service.manage.UserService;
-import com.coocaa.magazine.utils.ServletUtil;
+import com.coocaa.element.core.utils.ServletUtil;
 import org.apache.shiro.SecurityUtils;
 import org.apache.shiro.session.Session;
 import org.apache.shiro.subject.Subject;

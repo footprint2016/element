@@ -4,7 +4,7 @@ import com.coocaa.element.core.dao.manage.RoleMapper;
 import com.coocaa.element.core.model.manage.Role;
 import com.coocaa.element.core.service.ServicesImpl;
 import com.coocaa.element.core.service.manage.RoleService;
-import com.coocaa.magazine.utils.enums.DeleteFlagEnum;
+import com.coocaa.element.core.enums.DeleteFlagEnum;
 import org.apache.commons.lang.StringUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;

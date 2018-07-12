@@ -2,11 +2,11 @@ package com.coocaa.element.elementui.controller.manage;
 
 import com.coocaa.element.common.config.CurrencyConfig;
 import com.coocaa.element.common.controller.BaseController;
+import com.coocaa.element.core.enums.DeleteFlagEnum;
 import com.coocaa.element.core.model.manage.Menu;
 import com.coocaa.element.core.model.view.MenuView;
 import com.coocaa.element.core.service.manage.MenuService;
 import com.coocaa.element.core.service.manage.RoleMenuService;
-import com.coocaa.magazine.utils.enums.DeleteFlagEnum;
 import org.apache.shiro.authz.annotation.RequiresPermissions;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;

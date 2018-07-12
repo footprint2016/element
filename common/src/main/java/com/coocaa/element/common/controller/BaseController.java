@@ -1,6 +1,6 @@
 package com.coocaa.element.common.controller;
 
-import com.coocaa.magazine.utils.MyUtils;
+import com.coocaa.element.core.utils.MyUtils;
 import org.apache.shiro.SecurityUtils;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.ui.ModelMap;

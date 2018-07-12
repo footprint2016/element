@@ -1,6 +1,6 @@
 package com.coocaa.element.elementui.credentialsMatcher;
 
-import com.coocaa.magazine.utils.CipherUtil;
+import com.coocaa.element.core.utils.CipherUtil;
 import org.apache.shiro.authc.AuthenticationInfo;
 import org.apache.shiro.authc.AuthenticationToken;
 import org.apache.shiro.authc.SimpleAuthenticationInfo;

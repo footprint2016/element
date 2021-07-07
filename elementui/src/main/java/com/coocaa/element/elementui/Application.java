@@ -30,7 +30,7 @@ public class Application extends WebMvcConfigurerAdapter {
     MailConfig mailConfig;
 
     /**
-     * 配置shiroFilter
+     * 配置shiroFilter 111
      *
      * @return
      */
